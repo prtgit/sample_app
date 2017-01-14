@@ -35,7 +35,7 @@ gem 'bootstrap-sass', '~> 3.2.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem 'rspec-rails'  
+    
 end
 
 group :development do
@@ -45,12 +45,12 @@ end
 
 group :production do
  
-  gem 'pg', '0.18.4'
+  
 end
 
 group :test do
 
-  gem 'capybara'
+  
 end
 #%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
 #  gem lib, :git => "https://github.com/rspec/#{lib}.git", :branch => 'master'
